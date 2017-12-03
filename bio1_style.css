@@ -1,0 +1,209 @@
+
+@media screen and (min-width: 480px) {
+    .whole_back {
+        background-color: lightgreen;
+    }
+
+.whole_back {
+	background-color: rgb(211, 211, 211);
+}
+
+.push_down {
+	margin-top: 120px;
+}
+
+.head {
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: solid;
+	border-color: #cccccc;
+	
+
+}
+
+
+.name {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 15%;
+	text-align: center;
+	position: bottom;
+	margin-left: 130px;
+	border: 0px;
+	padding: 10px 20px 10px 20px;
+}	
+	
+
+.top_three {
+	display: inline;
+	padding-right: 10px;
+	right: 30px;
+	float: right;
+	margin-right: 15%;
+	font-size: 20px;
+	word-spacing: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}	
+
+.main {
+	width: 650px;
+	
+	overflow: scroll;
+	float: left;
+	margin-top: 50px; 
+	margin-left: 10%;
+	border: solid;
+	border-color: #4aaaa5;
+
+}
+
+.myimg {
+	float: left;
+}
+
+/*#clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+footer {
+	clear: both;
+}
+
+.blue {
+	color: #4aaaa5;
+
+}
+
+.right_box {
+	float: right;
+	color: #4aaaa5;
+	width: 270px;
+	justify-content: center;
+	margin: 0;
+	border: 0;
+	height: 200px;
+	text-align: center;
+	margin-right: 150px;
+	margin-top: 50px;
+	border: solid;
+	border-color: #4aaaa5;
+
+
+
+}
+
+.pic_buttons {
+	width: 50px;
+}
+
+#footer_box {
+	padding: 10px;
+	border-top: solid;
+	border-color: #dddddd;
+}
+
+
+
+.input_section {
+	width: 650px;
+}
+
+.input_spaces {
+	width: 80%;
+}
+
+.portfolio_pics {
+	width: 250px;
+	height: 250px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    #nav { float: none; 
+    	   display: list-item;
+
+    }
+    #tall {
+    	width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+    #nav { float: none; 
+    	   display: list-item;
+
+    }
+    #tall {
+    	width: 400px;
+
+    }
+    #float_right_box {
+    	float:left;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+    #nav { float: none; 
+    	   display: list-item;
+
+    }
+    #tall {
+    	width: 400px;
+    }
+    #float_right_box {
+    	float:left;
+    }
+
+
+}
+
+@media screen and (max-width: 100px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+    #nav { float: none; 
+    	   display: list-item;
+
+    }
+    #tall {
+    	width: 100px;
+    }
+    #float_right_box {
+    	float:left;
+    }
+}
+
+
+
+
